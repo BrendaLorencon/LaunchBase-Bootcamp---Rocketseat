@@ -2,7 +2,9 @@
 <html>
     <head><!--Cabeçalho-->
         <title>Brenda Lorençon</title>
-        
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+
         <style>
             * {
                 margin: 0;
@@ -11,6 +13,7 @@
             }
             body {
                 background: #282a36;
+                font-family: 'Source Sans Pro', sans-serif;
             }
             header {
                 padding: 32px;
@@ -23,10 +26,18 @@
             }
 
             header div a {
-                color: white;
-                font-size: 18px;
-                line-height: 28px;
-                : 0 16px;
+                color: white;/*cor*/
+                font-size: 18px;/*tamanho da fonte*/
+                line-height: 28px;/*Altura da linha*/
+                margin: 0 16px;/*espaçamento externo, top, right,bottom e left*/
+                /*top/bottom right/left*/
+                padding-bottom: 3px;/*espaçamento interno*/
+                text-decoration: none;/*Tira a decoração linhas(sublinhado)*/   
+            }
+            
+            header div a:hover{/*passar o mouse em cima ele fára algo*/
+                color: #50fa7b;
+                transition: color 200ms;/*tempo da transição*/
             }
         </style>
     </head>
