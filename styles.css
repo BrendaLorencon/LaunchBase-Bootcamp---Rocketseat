@@ -31,10 +31,6 @@ header div {
     text-align: center;
 }
 
-.links {
-    text-align: center;
-}
-
 .links a {
     color: white;/*cor*/
     font-size: 18px;/*tamanho da fonte*/
@@ -103,7 +99,7 @@ header div {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;/*colunas do grid*/
-    gap: 20px;/*espaço entre os elementos*/
+    gap: 20px;/*espaço entre os elementos do grid*/
 }
 
 .card{
@@ -125,9 +121,11 @@ header div {
 }
 
 .card_price {
+    color: white;
     background-color: var(--color-rocket);
     filter: brightness(90%);
     padding: 5px 20px;
     border-radius: 20px;
     text-align: center;
+    text-decoration: none;
 }
