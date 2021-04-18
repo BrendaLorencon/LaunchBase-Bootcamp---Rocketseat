@@ -110,8 +110,7 @@ header div {
     width: 100%;
 }
 
-.card_content,
-.card_info {
+.card_content, .card_info {
     padding: 24px;
 }
 
